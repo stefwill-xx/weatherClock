@@ -1,5 +1,6 @@
-/*weatherClockweatherClock
- * temperature_sensor.pde
+/*
+ * weatherClock
+ * Based on temperature_sensor.pde by spacetinkerer@gmail.com
  * -----------------
  * Takes the sensor (LM335) input and converts it
  * to Kelvin degrees, then celsius.
@@ -9,7 +10,9 @@
  * 2.5 degrees were calculated by using a mercury
  * thermometer next to the sensor.
  *
- * http://spacetinkerer.blogspot.com
+ * And PCD8544 - Interface with Philips PCD8544 (or compatible) LCDs.
+ * Copyright (c) 2010 Carlos Rodrigues <cefrodrigues@gmail.com>
+ * 
  */
 
 #include <PCD8544.h>
